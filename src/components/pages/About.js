@@ -5,14 +5,42 @@ export default function About() {
 
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      My name is Eric Rothmuller and I'm a web designer and programmer from Northern California, USA. I have been working in the online marketing field since 2011 and am proficient in the following skill:
+
+      <ul>
+        <li className='normalUl'>UX / UI Web Design</li>
+        <li className='normalUl'>WordPress</li>
+        <li className='normalUl'>Search Engine Optimization</li>
+        <li className='normalUl'>Social Media Marketing</li>
+        <li className='normalUl'>Email Marketing</li>
+        <li className='normalUl'>Digital Advertising</li>
+        <li className='normalUl'>Content Writing</li>
+        <li className='normalUl'>Google Analytics</li>
+        <li className='normalUl'>Google Search Console Tools</li>
+        <li className='normalUl'>Lighthouse</li>
+      </ul>
+
+      I also attended the U.C. Berkeley Coding Bootcamp to become a full-stack programmer and am proficient in the following skills:
+
+      <ul>
+        <li className='normalUl'>HTML</li>
+        <li className='normalUl'>CSS</li>
+        <li className='normalUl'>JavaScript</li>
+        <li className='normalUl'>Bootstrap</li>
+        <li className='normalUl'>JQuery</li>
+        <li className='normalUl'>Node.js</li>
+        <li className='normalUl'>Express.js</li>
+        <li className='normalUl'>MySQL</li>
+        <li className='normalUl'>Schema</li>
+        <li className='normalUl'>Git and GitHub</li>
+        <li className='normalUl'>JSON</li>
+        <li className='normalUl'>Web API's, Server Side API's, and Third Party API's</li>
+        <li className='normalUl'>MongoDB</li>
+        <li className='normalUl'>Mongoose</li>
+        <li className='normalUl'>React</li>
+      </ul>
       </p>
     </div>
   );

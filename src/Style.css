@@ -14,15 +14,6 @@ p {
   font-size: 28px;
 }
 
-.main-page-body {
-  background-color: rgb(249, 232, 202);
-  height: 95vh;
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
-  padding: 0px;
-}
-
 .main-nav-menu {
   display: flex;
   height: 15vh;
@@ -31,6 +22,16 @@ p {
   justify-content: center;
   align-items: center;
   z-index: 1;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-page-body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(249, 232, 202);
+  min-height: 95vh;
+  max-height: max-content;
   margin: 0px;
   padding: 0px;
 }
@@ -52,17 +53,23 @@ footer {
   z-index: 2;
 }
 
-li {
+ul li {
   display: inline;
   padding: 15px;
   font-size: 42px;
 }
 
-li a {
+ul li a {
   color: Black;
   text-decoration: none;
 }
 
-li a:hover {
+ul li a:hover {
   opacity: 0.8;
+}
+
+.normalUl {
+  display: list-item;
+  padding: 3px;
+  font-size: 27px;
 }
