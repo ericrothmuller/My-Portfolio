@@ -4,8 +4,8 @@ import '../Style.css';
 function Nav({ currentPage, handlePageChange }) {
 
   return (
-    <nav className="main-header-menu">
-    <section>
+    <nav className="main-nav-menu">
+    <section className="main-nav-items">
     <ul>
       <li>
         <a
