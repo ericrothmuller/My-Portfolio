@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import './Style.css';
 
 // Pass users array to the List component as a prop
 export default function App() {

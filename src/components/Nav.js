@@ -1,9 +1,13 @@
 import React from 'react';
+import '../Style.css';
 
 function Nav({ currentPage, handlePageChange }) {
+
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <nav className="main-header-menu">
+    <section>
+    <ul>
+      <li>
         <a
           href="#aboutme"
           onClick={() => handlePageChange('About Me')}
@@ -12,7 +16,7 @@ function Nav({ currentPage, handlePageChange }) {
           About Me
         </a>
       </li>
-      <li className="nav-item">
+      <li>
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -21,7 +25,7 @@ function Nav({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li>
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -30,7 +34,7 @@ function Nav({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      <li className="nav-item">
+      <li>
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}
@@ -40,44 +44,9 @@ function Nav({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+</section>
+</nav>
   );
 }
 
 export default Nav;
-
-
-// import React from 'react';
-
-// export default function Nav() {
-//   const linkStyle = { padding: '15px' };
-
-//   return (
-//     <nav className="main-header-menu">
-//       <section
-//         style={{
-//           display: 'flex',
-//           fontFamily: 'helvetica',
-//           fontSize: 32,
-//           flexDirection: 'row',
-//           alignItems: 'center',
-//           justifyContent: 'center',
-//           padding: 5,
-//         }}
-//       >
-//         <div style={linkStyle}>
-//           <a href="#">About Me</a>
-//         </div>
-//         <div style={linkStyle}>
-//           <a href="#">Portfolio</a>
-//         </div>
-//         <div style={linkStyle}>
-//           <a href="#">Contact</a>
-//         </div>
-//         <div style={linkStyle}>
-//           <a href="#">Resume</a>
-//         </div>
-//       </section>
-//     </nav>
-//   );
-// }
-
