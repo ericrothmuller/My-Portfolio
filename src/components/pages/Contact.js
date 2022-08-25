@@ -4,16 +4,11 @@ import '../../Style.css';
 export default function Contact() {
 
   return (
-    <div>
+    <div className='contactMe'>
       <h1>Contact</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <p>You can reach me by phone or email at:</p>
+      <p><strong>Phone: </strong><a href="tel:17078432047">707-843-2047</a></p>
+      <p><strong>Email: </strong><a href="mailto:ericrothmuller@gmail.com">ericrothmuller@gmail.com</a></p>
     </div>
   );
 }
