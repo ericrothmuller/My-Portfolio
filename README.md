@@ -39,12 +39,12 @@ What things you need to install the software and how to install them.
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Node](https://nodejs.org/en/)
 * [Express](https://www.npmjs.com/package/express)
-* [HtmlWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin/)
+* [React](https://reactjs.org/)
 
 
 ## Live Demo Link
 
-* [Live Demo](https://reactjs.org/)
+* [Live Demo](https://ericrothmuller.github.io/My-Portfolio/)
 
 
 ## Seeing My Changes
