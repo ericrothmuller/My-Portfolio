@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This project, which I named My Portfolio, is part of the Module 18 Challenge for U.C. Berkeley Extension's Coding Boot Camp. My name is Eric Rothmuller and I am a student of the Boot Camp. In this project I was tasked with creating a React Portfolio of my work.
 
-In the project directory, you can run:
 
-### `npm start`
+## Getting Started and Installing Guide
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+If you want to use this project and add to it, these instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Go to the user [ericrothmuller's repository titled My-Portfolio](https://github.com/ericrothmuller/My-Portfolio)
+2. Click the Green button "Code" and select "Download Zip" which will download "My-Portfolio-main.zip" and then unzip the file to the directory you want to work in.
+3. Create your own Github repository for your work.
+4. Clone your new repository down to where you want to work on it.
+5. Copy and paste the contents of the "My-Portfolio" zip file to your new directory - the one linked to the repository you made.
+6. Add the new files within git with: git add .
+7. Commit the files within git with: git commit -m "add your comment here"
+8. Push your files to your repository on GitHub with: git push origin main
+9. When in the back-end, run in the terminal "npm i" to install dependencies and "npm start" to start the server.
+10. Begin your work.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites
 
-### `npm run build`
+What things you need to install the software and how to install them.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Git](https://git-scm.com/downloads)
+* [GitHub](https://github.com/)
+* [Visual Studio Code](https://code.visualstudio.com/download)
+* [Node](https://nodejs.org/en/)
+* [Express](https://www.npmjs.com/package/express)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Built With
 
-### `npm run eject`
+* [Git](https://git-scm.com/downloads)
+* [GitHub](https://github.com/)
+* [Visual Studio Code](https://code.visualstudio.com/download)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Node](https://nodejs.org/en/)
+* [Express](https://www.npmjs.com/package/express)
+* [HtmlWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Live Demo Link
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* [Live Demo](https://reactjs.org/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Seeing My Changes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To see the changes made by me in this project and to revert back to any part of the project, please view the commit log. Each commit log entry details every change that was made to the code and files.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* [View Commit Log](https://github.com/ericrothmuller/My-Portfolio/commits/main)
 
-### Code Splitting
+### Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Eric Rothmuller
 
-### Analyzing the Bundle Size
+- [Github Profile](https://github.com/ericrothmuller)
+- [LinkedIn Profile](https://www.linkedin.com/in/eric-rothmuller/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the MIT License.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Acknowledgments
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A special thank you and ackowledgement goes out to [U.C. Berkeley's Extension Coding Boot Camp](https://bootcamp.berkeley.edu/coding/) for not only giving me this challenge, but also for teaching me the skills necessary to create it.
