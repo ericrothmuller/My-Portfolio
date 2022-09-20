@@ -90,6 +90,16 @@ ul li a:hover {
   text-decoration: none;
 }
 
+.resumeDiv {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  box-sizing: border-box;
+  height: auto;
+  width: auto;
+}
+
 .resume {
   border: 1px black solid;
+  width: 60%;
 }
