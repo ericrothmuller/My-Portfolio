@@ -89,3 +89,7 @@ ul li a:hover {
   color: black;
   text-decoration: none;
 }
+
+.resume {
+  border: 1px black solid;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../Style.css';
+import ResumeImage from '../../images/Eric-Rothmuller-Resume.jpg'
 
 export default function Resume() {
 
@@ -14,6 +15,7 @@ export default function Resume() {
         imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
+      <img src={ResumeImage} className="resume" alt="Resume" />
     </div>
   );
 }
