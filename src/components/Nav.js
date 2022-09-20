@@ -6,6 +6,7 @@ function Nav({ currentPage, handlePageChange }) {
   return (
     <nav className="main-nav-menu">
     <section className="main-nav-items">
+    <h1 className="headerTitle">Eric Rothmuller</h1>
     <ul>
       <li>
         <a

@@ -16,7 +16,7 @@ p {
 
 .main-nav-menu {
   display: flex;
-  height: 15vh;
+  height: auto;
   width: 100vw;
   background-color: wheat;
   justify-content: center;
@@ -24,6 +24,12 @@ p {
   z-index: 1;
   margin: 0px;
   padding: 0px;
+}
+
+.headerTitle {
+  font-size: 45px;
+  margin: 0px;
+  padding: 10px;
 }
 
 .main-page-body {
