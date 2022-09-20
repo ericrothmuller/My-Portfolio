@@ -92,8 +92,9 @@ ul li a:hover {
 
 .resumeDiv {
   display: flex;
-  justify-content: center;
-  padding: 50px;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
   box-sizing: border-box;
   height: auto;
   width: auto;
@@ -104,6 +105,14 @@ ul li a:hover {
   width: 60%;
 }
 
-.resume:hover {
+.PdfButton {
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.PdfButton:hover {
   cursor: pointer;
+  opacity: .8;
 }
