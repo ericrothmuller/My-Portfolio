@@ -11,7 +11,7 @@ export default function Resume() {
       <div className="resumeDiv">
         <img src={ResumeImage} className="resume" alt="Eric Rothmuller's Resume" title="Eric Rothmuller's Resume" />
         
-        <a name="Pdfdownload" href={ResumePdf} target="_blank"><button className="PdfButton">Download PDF</button></a>
+        <a name="Pdfdownload" href={ResumePdf} target="blank" title="Download Resume" rel="alternate"><button className="PdfButton">Download PDF</button></a>
       </div>
     </div>
   );
