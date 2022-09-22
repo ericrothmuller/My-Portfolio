@@ -123,9 +123,25 @@ ul li a:hover {
   opacity: .8;
 }
 
+.portfolioImage {
+  width: 45%;
+  margin: 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolioImage {
+    width: 80%;
+    border: none;
+  }
+}
+
 .cardsDiv {
   display: block;
   justify-content: center;
   text-align: center;
   width: 100%;
+  background-color: red;
 };

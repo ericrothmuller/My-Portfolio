@@ -1,15 +1,16 @@
 import React from 'react';
 import '../../Style.css';
-import { mediaQuery } from '../hooks/MediaQueryHook';
 
-const portfolioCard = {
-  width: "45%",
-  padding: "25px",
-  borderRadius: "35px",
-  cursor: "pointer"
-}
+// const portfolioCard = {
+//   width: "45%",
+//   padding: "25px",
+//   borderRadius: "35px",
+//   cursor: "pointer",
+// }
 
 export default function Portfolio() {
+
+
 
   return (
     <div>
@@ -18,11 +19,13 @@ export default function Portfolio() {
         Portfolio Items will go here.
       </p>
       <div className="cardsDiv">
-        <img src={require("../../images/Cocktail-Concoctor-Screen-Shot.jpg")} alt="Cocktail Concocter Portfolio" title="Cocktail Concocter" style={portfolioCard} />
-        <img src={require("../../images/Jedi-Clicker-Screen-Shot.jpg")} alt="Jedi Clicker Portfolio" title="Jedi Clicker" style={portfolioCard} />
-        <img src={require("../../images/Elite-MD-Screenshot.jpg")} alt="Elite MD Portfolio" title="Elite MD" style={portfolioCard} />
-        <img src={require("../../images/Murder-Ridge-Screenshot.jpg")} alt="Murder Ridge Portfolio" title="Murder Ridge" style={portfolioCard} />
+        <img className ="portfolioImage" src={require("../../images/Cocktail-Concoctor-Screen-Shot.jpg")} alt="Cocktail Concocter Portfolio" title="Cocktail Concocter" />
+        <img className ="portfolioImage" src={require("../../images/Jedi-Clicker-Screen-Shot.jpg")} alt="Jedi Clicker Portfolio" title="Jedi Clicker" />
+        <img className ="portfolioImage" src={require("../../images/Elite-MD-Screenshot.jpg")} alt="Elite MD Portfolio" title="Elite MD" />
+        <img className ="portfolioImage" src={require("../../images/Murder-Ridge-Screenshot.jpg")} alt="Murder Ridge Portfolio" title="Murder Ridge" />
       </div>
     </div>
   );
 }
+
+{/* <img className="animalImage" src={animal.pic_url} alt="animal"/> */}
