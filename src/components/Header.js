@@ -8,7 +8,7 @@ import '../Style.css';
 
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About Me');
 
   const renderPage = () => {
     if (currentPage === 'About Me') {
@@ -17,11 +17,11 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    if (currentPage === 'Contact') {
-      return <Contact />;
-    }
     if (currentPage === 'Resume') {
       return <Resume />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
     }
     return <About />;
   };
