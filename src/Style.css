@@ -109,6 +109,7 @@ ul li a:hover {
 .resume {
   border: 1px black solid;
   width: 60%;
+  filter: drop-shadow(15px 10px 5px rgb(86, 86, 86));
 }
 
 .PdfButton {
