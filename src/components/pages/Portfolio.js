@@ -1,12 +1,9 @@
 import React from 'react';
 import '../../Style.css';
 
-// const portfolioCard = {
-//   width: "45%",
-//   padding: "25px",
-//   borderRadius: "35px",
-//   cursor: "pointer",
-// }
+const centerP = {
+  textAlign: "center",
+}
 
 export default function Portfolio() {
 
@@ -15,8 +12,8 @@ export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio</h1>
-      <p>
-        Portfolio Items will go here.
+      <p style={centerP}>
+        Here is a list of some of the projects I've worked on. You can click on each image for more information on each project.
       </p>
       <div className="cardsDiv">
         <img className ="portfolioImage" src={require("../../images/Cocktail-Concoctor-Screen-Shot.jpg")} alt="Cocktail Concocter Portfolio" title="Cocktail Concocter" />
