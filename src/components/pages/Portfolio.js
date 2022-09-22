@@ -27,5 +27,3 @@ export default function Portfolio() {
     </div>
   );
 }
-
-{/* <img className="animalImage" src={animal.pic_url} alt="animal"/> */}
