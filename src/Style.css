@@ -126,15 +126,15 @@ ul li a:hover {
 .portfolioImage {
   width: 45%;
   margin: 25px;
-  border-radius: 30px;
+  border-radius: 10px;
   cursor: pointer;
   box-sizing: border-box;
+  border: 2px solid white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
   .portfolioImage {
-    width: 80%;
-    border: none;
+    width: 85%;
   }
 }
 
@@ -143,5 +143,4 @@ ul li a:hover {
   justify-content: center;
   text-align: center;
   width: 100%;
-  background-color: red;
 };
