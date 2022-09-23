@@ -1,17 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../../Style.css';
+import Modal from '../../Modal'
 
 const centerP = {
   textAlign: "center",
 }
 
-const handleClick = event => {
-  console.log("image clicked")
-};
-
 export default function Portfolio() {
 
+const [isOpen, setIsOpen] = useState(false);
 
+const handleClick = event => {
+  setIsOpen(true);
+};
 
   return (
     <div>
@@ -21,6 +22,9 @@ export default function Portfolio() {
       </p>
       <div className="cardsDiv">
         <img className ="portfolioImage" src={require("../../images/Cocktail-Concoctor-Screen-Shot.jpg")} alt="Cocktail Concocter Portfolio" title="Cocktail Concocter" onClick={handleClick} />
+        <Modal open={isOpen}>
+          Test Modal
+        </Modal>
         <img className ="portfolioImage" src={require("../../images/Jedi-Clicker-Screen-Shot.jpg")} alt="Jedi Clicker Portfolio" title="Jedi Clicker" />
         <img className ="portfolioImage" src={require("../../images/Elite-MD-Screenshot.jpg")} alt="Elite MD Portfolio" title="Elite MD" />
         <img className ="portfolioImage" src={require("../../images/Murder-Ridge-Screenshot.jpg")} alt="Murder Ridge Portfolio" title="Murder Ridge" />
