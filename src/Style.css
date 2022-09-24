@@ -151,16 +151,21 @@ ul li a:hover {
 }
 
 .portfolioDetails {
-  display: inline-block;
+  display: block;
   max-width: 100%;
   padding-top: 10px;
   text-align: left;
-  padding-left: 4%;
+  padding-left: 15px;
 }
 
  .portfolioDetails p {
  padding: 5px;
  font-size: 20px;
+}
+
+.portfolioDetails a {
+  color: black;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1100px) {

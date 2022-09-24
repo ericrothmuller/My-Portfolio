@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import '../../Style.css';
 import CocktailConcoctor from './portfolioItems/CocktailConcoctor';
 import JediClicker from './portfolioItems/JediClicker';
+import EliteMd from './portfolioItems/EliteMd';
+import MurderRidge from './portfolioItems/MurderRidge';
 
 const centerP = {
   textAlign: "center",
@@ -11,6 +13,8 @@ export default function Portfolio() {
 
 const [imageOneIsOpen, toggleimageOneIsOpen] = useState(false);
 const [imageTwoIsOpen, toggleImageTwo] = useState(false);
+const [imageThreeIsOpen, toggleImageThree] = useState(false);
+const [imageFourIsOpen, toggleImageFour] = useState(false);
 
 const toggleImageFunction = (state, setState) => {
   if (state === false) {
@@ -36,10 +40,12 @@ const toggleImageFunction = (state, setState) => {
           {imageTwoIsOpen ? <JediClicker /> : null}
         </div>
         <div className="portfolioDiv">
-          <img className="portfolioImage" src={require("../../images/Elite-MD-Screenshot.jpg")} alt="Elite MD Portfolio" title="Elite MD" />
+          <img className="portfolioImage" src={require("../../images/Elite-MD-Screenshot.jpg")} alt="Elite MD Portfolio" title="Elite MD" onClick={() => toggleImageFunction(imageThreeIsOpen, toggleImageThree)} />
+          {imageThreeIsOpen ? <EliteMd /> : null}
         </div>
         <div className="portfolioDiv">
-          <img className="portfolioImage" src={require("../../images/Murder-Ridge-Screenshot.jpg")} alt="Murder Ridge Portfolio" title="Murder Ridge" />
+          <img className="portfolioImage" src={require("../../images/Murder-Ridge-Screenshot.jpg")} alt="Murder Ridge Portfolio" title="Murder Ridge" onClick={() => toggleImageFunction(imageFourIsOpen, toggleImageFour)} />
+          {imageFourIsOpen ? <MurderRidge /> : null}
         </div>
       </div>
     </div>
