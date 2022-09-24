@@ -124,9 +124,21 @@ ul li a:hover {
   opacity: .8;
 }
 
-.portfolioImage {
+.cardsDiv {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.portfolioDiv {
+  display: inline-block;
   width: 45%;
   margin: 25px;
+}
+
+.portfolioImage {
+  width: 95%;
   border-radius: 10px;
   box-sizing: border-box;
   border: 2px solid rgb(88, 88, 88);
@@ -138,15 +150,16 @@ ul li a:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1100px) {
-  .portfolioImage {
-    width: 85%;
-  }
+.portfolioDetails {
+  display: inline-block;
+  width: 100%;
+  padding-top: 10px;
+  text-align: left;
+  padding-left: 4%;
 }
 
-.cardsDiv {
-  display: block;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-};
+@media screen and (max-width: 1100px) {
+  .portfolioDiv {
+    width: 95%;
+  }
+}
