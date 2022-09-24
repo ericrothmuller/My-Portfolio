@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import '../../Style.css';
-import CocktailConcoctor from './CocktailConcoctor';
+import CocktailConcoctor from './portfolioItems/CocktailConcoctor';
 
 const centerP = {
   textAlign: "center",
