@@ -17,7 +17,7 @@ p {
 .main-nav-menu {
   display: flex;
   height: auto;
-  width: 100vw;
+  width: 100%;
   background-color: wheat;
   justify-content: center;
   align-items: center;
@@ -46,7 +46,7 @@ footer {
   display: flex;
   background-color: wheat;
   height: 5vh;
-  width: 100vw;
+  width: 100%;
   margin: 0px;
   padding: 0px;
   justify-content: center;
