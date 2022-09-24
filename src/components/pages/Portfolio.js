@@ -22,7 +22,7 @@ const toggleImageFunction = (state, setState) => {
 
   return (
     <div>
-      <h1>Portfolio</h1>
+      <h1>My Portfolio</h1>
       <p style={centerP}>
         Here is a list of some of the projects I've worked on. You can click on each image for more information on each project.
       </p>
