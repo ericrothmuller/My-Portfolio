@@ -8,10 +8,8 @@ export default function Resume() {
   return (
     <div>
       <h1>Eric Rothmuller's Resume</h1>
-      <div className="resumeDiv">
-        <img src={ResumeImage} className="resume" alt="Eric Rothmuller's Resume" title="Eric Rothmuller's Resume" />
-        
-        <a name="Pdfdownload" href={ResumePdf} target="blank" title="Download Resume" rel="alternate"><button className="PdfButton">Download PDF</button></a>
+      <div>
+        <a href={ResumePdf} target="blank" className="resumeDiv"><img src={ResumeImage} className="resume" alt="Eric Rothmuller's Resume" title="Eric Rothmuller's Resume" /></a>
       </div>
     </div>
   );
