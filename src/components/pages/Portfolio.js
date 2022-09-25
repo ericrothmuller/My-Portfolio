@@ -25,7 +25,7 @@ const toggleImageFunction = (state, setState) => {
 };
 
   return (
-    <div>
+    <div className="animate__animated animate__fadeIn">
       <h1>My Portfolio</h1>
       <p style={centerP}>
         Here is a list of some of the projects I've worked on. You can click on each image for more information on each project.

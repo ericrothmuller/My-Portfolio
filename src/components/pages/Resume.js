@@ -10,7 +10,7 @@ const centerP = {
 export default function Resume() {
 
   return (
-    <div>
+    <div className="animate__animated animate__fadeIn">
       <h1>My Resume</h1>
       <p style={centerP}>Click on the image to download a PDF version.</p>
       <div>

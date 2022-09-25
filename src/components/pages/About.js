@@ -4,7 +4,7 @@ import '../../Style.css';
 export default function About() {
 
   return (
-    <div>
+    <div className="animate__animated animate__fadeIn">
       <h1>About Me</h1>
       <p>
       My name is Eric Rothmuller and I'm a web designer and programmer from Northern California, USA. I have been working in the online marketing field since 2011 and am proficient in the following skill:
