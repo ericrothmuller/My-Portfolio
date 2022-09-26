@@ -8,7 +8,10 @@ export default function About() {
       <h1>About Me</h1>
       <p>
       My name is Eric Rothmuller and I'm a web designer and programmer from Northern California, USA. I have been working in the online marketing field since 2011 and am proficient in the following skill:
-
+      </p>
+    <div className="aboutImageDiv">
+      <img className="aboutImage" src={require("../../images/Eric.jpg")} alt="Eric Rothmuller Headshot" title="Eric Rothmuller" />
+    </div>
       <ul>
         <li className='normalUl'>UX / UI Web Design</li>
         <li className='normalUl'>WordPress</li>
@@ -22,7 +25,7 @@ export default function About() {
         <li className='normalUl'>Lighthouse</li>
       </ul>
 
-      I also attended the U.C. Berkeley Coding Bootcamp to become a full-stack programmer and am proficient in the following skills:
+      <p>I also attended the U.C. Berkeley Coding Bootcamp to become a full-stack programmer and am proficient in the following skills:</p>
 
       <ul>
         <li className='normalUl'>HTML</li>
@@ -41,7 +44,6 @@ export default function About() {
         <li className='normalUl'>Mongoose</li>
         <li className='normalUl'>React</li>
       </ul>
-      </p>
     </div>
   );
 }
