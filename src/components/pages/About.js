@@ -63,11 +63,9 @@ export default function About() {
 
     <div className="skillsButtons">
       <div className="columnDiv">
-      <button className="developerSkillsButton" onClick={viewDevSkills}>Developer Skills</button>
-      <button className="marketingSkillsButton" onClick={viewMarkSkills}>Marketing Skills</button>
         <div id="leftDiv" className="leftDiv">
+        <button className="developerSkillsButton" onClick={viewDevSkills}>Developer Skills</button>
           <div id="devDiv" className="hiddenDiv">
-            <h2>Developer Skills:</h2>
             <ul>
                 <li className='normalUl'>HTML</li>
                 <li className='normalUl'>CSS</li>
@@ -88,8 +86,8 @@ export default function About() {
             </div>
         </div>
       <div id="rightDiv" className="rightDiv">
+      <button className="marketingSkillsButton" onClick={viewMarkSkills}>Marketing Skills</button>
         <div id="marketingDiv" className="hiddenDiv">
-          <h2>Marketing Skills:</h2>
           <ul>
               <li className='normalUl'>Search Engine Optimization</li>
               <li className='normalUl'>Google Analytics</li>
