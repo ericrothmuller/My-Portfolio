@@ -73,8 +73,6 @@ export default function About() {
       I am seeking a full-time permanent job that'll allow me to work as a web developer. I am willing to work in-office or remote and I am willing to relocate if needed. I am looking for a company that I could spend the rest of my professional life at.
       </p>
 
-    {/* SKILLS BUTTONS */}
-
     <div className="skillsButtons">
       <div className="columnDiv">
         <div id="leftDiv" className="leftDiv">
