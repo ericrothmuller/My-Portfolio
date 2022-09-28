@@ -5,7 +5,7 @@ export default function Footer() {
 
   return (
     <footer>
-      <p>
+      <p id="footerText">
         Copyright Eric Rothmuller 2022
       </p>
     </footer>

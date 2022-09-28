@@ -1,9 +1,19 @@
 :root {
-  --headingColor: rgb(255, 255, 255);
-  --fontColor: rgb(255, 255, 255);
-  --headerColor: rgb(0, 0, 0);
-  --bodyColor: rgb(19, 151, 155);
+  --headingColor: #66FCF1;
+  --fontColor: #C5C6C7;
+  --headerColor: #1F2833;
+  --bodyColor: #0B0C10;
+  --titleColor: #66FCF1;
+  --accentColor: blue;
 }
+
+/* :root {
+#0B0C10;
+#1F2833;
+#C5C6C7;
+#66FCF1;
+#45A29E;
+} */
 
 p {
   color: var(--fontColor);
@@ -23,6 +33,7 @@ h1 {
 }
 
 .headerTitle {
+  color: var(--titleColor);
   font-size: 45px;
   margin: 0px;
   padding-top: 10px;
@@ -51,7 +62,7 @@ h1 {
 
 footer {
   display: flex;
-  background-color: red;
+  background-color: var(--headerColor);
   height: 5vh;
   width: 100%;
   margin: 0px;
@@ -59,6 +70,10 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 25px;
+}
+
+#footerText {
+  color: var(--headingColor)
 }
 
 ul li a {
@@ -88,7 +103,7 @@ ul li a:hover {
 }
 
 .aboutImage {
-  border: 5px whitesmoke solid;
+  border: 5px var(--accentColor) solid;
   border-radius: 10px;
   float: right;
   margin-right: 5%;
@@ -124,7 +139,7 @@ ul li a:hover {
 }
 
 .resume {
-  border: 1px black solid;
+  border: 2px var(--accentColor) solid;
   width: 60%;
   filter: drop-shadow(15px 10px 5px rgb(86, 86, 86));
 }
@@ -133,7 +148,7 @@ ul li a:hover {
   padding: 10px;
   margin-top: 15px;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 2px var(--accentColor) solid;
 }
 
 .PdfButton:hover {
@@ -268,6 +283,7 @@ ul li a:hover {
   padding: 15px;
   border-radius: 10px;
   cursor: pointer;
+  border: 2px var(--accentColor) solid;
 }
 
 .developerSkillsButton:hover {
@@ -280,6 +296,7 @@ ul li a:hover {
   padding: 15px;
   border-radius: 10px;
   cursor: pointer;
+  border: 2px var(--accentColor) solid;
 }
 
 .marketingSkillsButton:hover {
