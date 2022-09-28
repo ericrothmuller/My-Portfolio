@@ -249,19 +249,57 @@ ul li a:hover {
 }
 
 .columnDiv {
-  width: 100%;
+  width: 50%;
   background-color: green;
-  float: left;
 }
 
 .leftDiv {
+  visibility: visible;
   background-color: blue;
   width: 50%;
   float: left;
 }
 
+.leftDivHid {
+  visibility: hidden;
+}
+
 .rightDiv {
+  visibility: visible;
   background-color: red;
   width: 50%;
   float: right;
+}
+
+.rightDivHid {
+  visibility: hidden;
+}
+
+.skillsButtons {
+  background-color: aqua;
+  width: 50%;
+  height: 50px;
+}
+
+.developerSkillsButton {
+  font-size: 40px;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.developerSkillsButton:hover {
+  opacity: .8;
+}
+
+.marketingSkillsButton {
+  font-size: 40px;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.marketingSkillsButton:hover {
+  opacity: .8;
 }

@@ -1,7 +1,19 @@
 import React from 'react';
 import '../../Style.css';
 
+
+
 export default function About() {
+
+  const viewDevSkills = () => {
+    document.getElementById("leftDiv").classList.remove('leftDivHid');
+    document.getElementById("leftDiv").classList.add('leftDiv');
+  };
+
+  const viewMarkSkills = () => {
+    document.getElementById("rightDiv").classList.remove('rightDivHid');
+    document.getElementById("rightDiv").classList.add('rightDiv');
+  };
 
   return (
     <div className="aboutMe animate__animated animate__fadeIn">
@@ -9,12 +21,19 @@ export default function About() {
       <p>
       My name is Eric Rothmuller and I'm a web developer living in Northern California. I have been working in the web design and online marketing field since 2011. I graduated from U.C. Berkeley's Full-Stack Coding Bootcamp which had an emphasis on the <div class="merntooltip">MERN<span class="merntooltiptext">MongoDB, Express.js, React, and Node.js.</span></div> stack and I am seeking a full-time permanent job that'll allow me to work as a web developer.
       </p>
-    <div className="aboutImageDiv">
+
+      <div className="aboutImageDiv">
       <img className="aboutImage animate__animated animate__slideInRight" src={require("../../images/Eric.jpg")} alt="Eric Rothmuller Headshot" title="Eric Rothmuller" />
     </div>
 
+    <div className="skillsButtons">
+    <button className="developerSkillsButton" onClick={viewDevSkills}>Developer Skills</button>
+    <button className="marketingSkillsButton" onClick={viewMarkSkills}>Marketing Skills</button>
+
+    </div>
+
       <div className="columnDiv">
-    <div className="leftDiv">
+    <div id="leftDiv" className="leftDivHid">
     <ul>
         <li className='normalUl animate__animated animate__slideInLeft'>HTML</li>
         <li className='normalUl animate__animated animate__slideInLeft'>CSS</li>
@@ -34,7 +53,7 @@ export default function About() {
       </ul>
     </div>
 
-    <div className="rightDiv">
+    <div id="rightDiv" className="rightDivHid">
     <ul>
         <li className='normalUl animate__animated animate__slideInLeft'>Search Engine Optimization</li>
         <li className='normalUl animate__animated animate__slideInLeft'>Google Analytics</li>
