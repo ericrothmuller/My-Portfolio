@@ -51,13 +51,27 @@ export default function About() {
   return (
     <div className="aboutMe animate__animated animate__fadeIn">
       <h1>About Me</h1>
-      <p>
-      My name is Eric Rothmuller and I'm a web developer living in Northern California. I have been working in the web design and online marketing field since 2011. I graduated from U.C. Berkeley's Full-Stack Coding Bootcamp which had an emphasis on the <div class="merntooltip">MERN<span class="merntooltiptext">MongoDB, Express.js, React, and Node.js.</span></div> stack and I am seeking a full-time permanent job that'll allow me to work as a web developer.
-      </p>
-
       <div className="aboutImageDiv">
       <img className="aboutImage animate__animated animate__slideInRight" src={require("../../images/Eric.jpg")} alt="Eric Rothmuller Headshot" title="Eric Rothmuller" />
     </div>
+      <p>
+      My name is Eric Rothmuller and I'm a web developer living in Northern California. I have been working in the web design and online marketing field since 2011 and I graduated from U.C. Berkeley's Full-Stack Coding Bootcamp which had an emphasis on the <div class="merntooltip">MERN<span class="merntooltiptext">MongoDB, Express.js, React, and Node.js.</span></div> stack.
+      </p>
+
+    &nbsp;
+      <p>
+      Outside of my over a decade long web design and online marketing experience, I have most recently worked as an IT professional and underwriter for a funeral funding company. In my more distant past (before I fell in love with web development), I was an animal control officer, professional gamer, and worked in mortgage.
+      </p>
+
+      &nbsp;
+      <p>
+        In my spare time, I enjoy spending time with my family and friends. My wife and I go swimming quite often with my step-daughter and niece. I am also a fairly competitive tennis player and enjoy getting on court. I also thoroughly enjoy continuing to learn programming and I dedicate a minimum of 2 hours a day learning new things and improving my craft.
+      </p>
+
+      &nbsp;
+      <p>
+      I am seeking a full-time permanent job that'll allow me to work as a web developer. I am willing to work in-office or remote and I am willing to relocate if needed. I am looking for a company that I could spend the rest of my professional life at.
+      </p>
 
     {/* SKILLS BUTTONS */}
 
@@ -107,7 +121,6 @@ export default function About() {
       </div>
       </div>
       </div>
-
     </div>
     
   );
