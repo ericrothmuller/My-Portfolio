@@ -9,21 +9,42 @@ export default function About() {
     if (document.getElementById("devDiv").classList[0] === "hiddenDiv") {
       document.getElementById("devDiv").classList.remove('hiddenDiv');
       document.getElementById("devDiv").classList.add('visibleDiv');
+      document.getElementById("devDiv").classList.add('animate__animated');
+      document.getElementById("devDiv").classList.add('animate__fadeInLeft');
     }
     else {
-      document.getElementById("devDiv").classList.remove('visibleDiv');
-      document.getElementById("devDiv").classList.add('hiddenDiv');
+      document.getElementById("devDiv").classList.remove('animate__animated');
+      document.getElementById("devDiv").classList.remove('animate__fadeInLeft');
+      document.getElementById("devDiv").classList.add('animate__animated');
+      document.getElementById("devDiv").classList.add('animate__fadeOutLeft');
+      setTimeout(function() {
+        document.getElementById("devDiv").classList.remove('visibleDiv');
+        document.getElementById("devDiv").classList.add('hiddenDiv');
+        document.getElementById("devDiv").classList.remove('animate__animated');
+        document.getElementById("devDiv").classList.remove('animate__fadeOutLeft');
+      }, 500);
     }
   };
+
 
   const viewMarkSkills = () => {
     if (document.getElementById("marketingDiv").classList[0] === "hiddenDiv") {
       document.getElementById("marketingDiv").classList.remove('hiddenDiv');
       document.getElementById("marketingDiv").classList.add('visibleDiv');
+      document.getElementById("marketingDiv").classList.add('animate__animated');
+      document.getElementById("marketingDiv").classList.add('animate__fadeInRight');
     }
     else {
-      document.getElementById("marketingDiv").classList.remove('visibleDiv');
-      document.getElementById("marketingDiv").classList.add('hiddenDiv');
+      document.getElementById("marketingDiv").classList.remove('animate__animated');
+      document.getElementById("marketingDiv").classList.remove('animate__fadeInRight');
+      document.getElementById("marketingDiv").classList.add('animate__animated');
+      document.getElementById("marketingDiv").classList.add('animate__fadeOutRight');
+      setTimeout(function() {
+        document.getElementById("marketingDiv").classList.remove('visibleDiv');
+        document.getElementById("marketingDiv").classList.add('hiddenDiv');
+        document.getElementById("marketingDiv").classList.remove('animate__animated');
+        document.getElementById("marketingDiv").classList.remove('animate__fadeOutRight');
+      }, 500);
     }
   };
 
