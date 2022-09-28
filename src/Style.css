@@ -254,35 +254,31 @@ ul li a:hover {
 }
 
 .leftDiv {
-  visibility: visible;
+  /* visibility: visible; */
   /* background-color: blue; */
   width: 50%;
   float: left;
 }
 
-.leftDivHid {
-  visibility: hidden;
-}
-
 .rightDiv {
-  visibility: visible;
+  /* visibility: visible; */
   /* background-color: red; */
   width: 50%;
   float: right;
 }
 
-.rightDivHid {
+.hiddenDiv {
   visibility: hidden;
+}
+
+.visibleDiv {
+  visibility: visible;
 }
 
 .skillsButtons {
   /* background-color: aqua; */
   width: 50%;
 }
-
-.skillsButtonCenter {
-  text-align: left;
-  }
 
 .developerSkillsButton {
   font-size: 40px;
