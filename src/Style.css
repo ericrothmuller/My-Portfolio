@@ -337,6 +337,18 @@ ul li a:hover {
 }
 
 @media screen and (max-width: 550px) {
+
+  h1 {
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
   .developerSkillsButton {
     font-size: 24px;
   }
