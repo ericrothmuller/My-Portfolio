@@ -27,48 +27,51 @@ export default function About() {
     </div>
 
     <div className="skillsButtons">
+      <div className="skillsButtonCenter">
     <button className="developerSkillsButton" onClick={viewDevSkills}>Developer Skills</button>
     <button className="marketingSkillsButton" onClick={viewMarkSkills}>Marketing Skills</button>
-
-    </div>
+      </div>
 
       <div className="columnDiv">
     <div id="leftDiv" className="leftDivHid">
+      <h2>Developer Skills:</h2>
     <ul>
-        <li className='normalUl animate__animated animate__slideInLeft'>HTML</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>CSS</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>JavaScript</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>React</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Responsive Design</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>SQL</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Node.js</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Express.js</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>MongoDB</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Mongoose</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>REST APIs</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Third-party APIs</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Mongoose</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Git and GitHub</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Dev Tools</li>
+        <li className='normalUl'>HTML</li>
+        <li className='normalUl'>CSS</li>
+        <li className='normalUl'>JavaScript</li>
+        <li className='normalUl'>React</li>
+        <li className='normalUl'>Responsive Design</li>
+        <li className='normalUl'>SQL</li>
+        <li className='normalUl'>Node.js</li>
+        <li className='normalUl'>Express.js</li>
+        <li className='normalUl'>MongoDB</li>
+        <li className='normalUl'>Mongoose</li>
+        <li className='normalUl'>REST APIs</li>
+        <li className='normalUl'>Third-party APIs</li>
+        <li className='normalUl'>Mongoose</li>
+        <li className='normalUl'>Git and GitHub</li>
+        <li className='normalUl'>Dev Tools</li>
       </ul>
     </div>
 
     <div id="rightDiv" className="rightDivHid">
+    <h2>Marketing Skills:</h2>
     <ul>
-        <li className='normalUl animate__animated animate__slideInLeft'>Search Engine Optimization</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Google Analytics</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Google Search Console</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Google My Business</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Google Ads</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>WordPress</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>WooCommerce</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>eCommerce Product Management</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Content Writing</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Graphic Design</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Email Marketing</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Social Media Marketing</li>
-        <li className='normalUl animate__animated animate__slideInLeft'>Lighthouse</li>
+        <li className='normalUl'>Search Engine Optimization</li>
+        <li className='normalUl'>Google Analytics</li>
+        <li className='normalUl'>Google Search Console</li>
+        <li className='normalUl'>Google My Business</li>
+        <li className='normalUl'>Google Ads</li>
+        <li className='normalUl'>WordPress</li>
+        <li className='normalUl'>WooCommerce</li>
+        <li className='normalUl'>eCommerce Product Management</li>
+        <li className='normalUl'>Content Writing</li>
+        <li className='normalUl'>Graphic Design</li>
+        <li className='normalUl'>Email Marketing</li>
+        <li className='normalUl'>Social Media Marketing</li>
+        <li className='normalUl'>Lighthouse</li>
       </ul>
+    </div>
     </div>
     </div>
 

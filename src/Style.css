@@ -249,13 +249,13 @@ ul li a:hover {
 }
 
 .columnDiv {
-  width: 50%;
-  background-color: green;
+  width: 100%;
+  /* background-color: green; */
 }
 
 .leftDiv {
   visibility: visible;
-  background-color: blue;
+  /* background-color: blue; */
   width: 50%;
   float: left;
 }
@@ -266,7 +266,7 @@ ul li a:hover {
 
 .rightDiv {
   visibility: visible;
-  background-color: red;
+  /* background-color: red; */
   width: 50%;
   float: right;
 }
@@ -276,17 +276,21 @@ ul li a:hover {
 }
 
 .skillsButtons {
-  background-color: aqua;
+  /* background-color: aqua; */
   width: 50%;
-  height: 50px;
 }
+
+.skillsButtonCenter {
+  text-align: left;
+  }
 
 .developerSkillsButton {
   font-size: 40px;
   padding: 15px;
   border-radius: 10px;
   cursor: pointer;
-  margin-right: 20px;
+  margin-right: 17%;
+  margin-top: 50px;
 }
 
 .developerSkillsButton:hover {
