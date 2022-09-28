@@ -248,10 +248,20 @@ ul li a:hover {
   margin: 0 1% 0 1%;
 }
 
+.columnDiv {
+  width: 100%;
+  background-color: green;
+  float: left;
+}
+
 .leftDiv {
   background-color: blue;
+  width: 50%;
+  float: left;
 }
 
 .rightDiv {
   background-color: red;
+  width: 50%;
+  float: right;
 }

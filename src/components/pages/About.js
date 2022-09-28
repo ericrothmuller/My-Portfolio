@@ -13,17 +13,9 @@ export default function About() {
       <img className="aboutImage animate__animated animate__slideInRight" src={require("../../images/Eric.jpg")} alt="Eric Rothmuller Headshot" title="Eric Rothmuller" />
     </div>
 
+      <div className="columnDiv">
     <div className="leftDiv">
-      <h2>left div</h2>
-    </div>
-
-    <div className="rightDiv">
-      <h2>right  div</h2>
-    </div>
-
-
-
-      <ul>
+    <ul>
         <li className='normalUl animate__animated animate__slideInLeft'>HTML</li>
         <li className='normalUl animate__animated animate__slideInLeft'>CSS</li>
         <li className='normalUl animate__animated animate__slideInLeft'>JavaScript</li>
@@ -40,8 +32,10 @@ export default function About() {
         <li className='normalUl animate__animated animate__slideInLeft'>Git and GitHub</li>
         <li className='normalUl animate__animated animate__slideInLeft'>Dev Tools</li>
       </ul>
+    </div>
 
-      <ul>
+    <div className="rightDiv">
+    <ul>
         <li className='normalUl animate__animated animate__slideInLeft'>Search Engine Optimization</li>
         <li className='normalUl animate__animated animate__slideInLeft'>Google Analytics</li>
         <li className='normalUl animate__animated animate__slideInLeft'>Google Search Console</li>
@@ -57,5 +51,9 @@ export default function About() {
         <li className='normalUl animate__animated animate__slideInLeft'>Lighthouse</li>
       </ul>
     </div>
+    </div>
+
+    </div>
+    
   );
 }
