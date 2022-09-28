@@ -247,3 +247,11 @@ ul li a:hover {
 .aboutMe {
   margin: 0 1% 0 1%;
 }
+
+.leftDiv {
+  background-color: blue;
+}
+
+.rightDiv {
+  background-color: red;
+}
