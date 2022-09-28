@@ -1,12 +1,12 @@
-h1 {
-  color: black;
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align: center;
-  font-size: 40px;
+:root {
+  --headingColor: rgb(255, 255, 255);
+  --fontColor: rgb(255, 255, 255);
+  --headerColor: rgb(0, 0, 0);
+  --bodyColor: rgb(19, 151, 155);
 }
 
 p {
+  color: var(--fontColor);
   margin: 0px;
   padding: 0px;
   padding-left: 15px;
@@ -14,15 +14,12 @@ p {
   font-size: 28px;
 }
 
-.main-nav-menu {
-  display: flex;
-  background-color: wheat;
-  justify-content: center;
+h1 {
+  color: var(--headingColor);
+  padding-left: 15px;
+  padding-right: 15px;
   text-align: center;
-}
-
-.main-nav-items {
-  background-color: wheat;
+  font-size: 40px;
 }
 
 .headerTitle {
@@ -31,10 +28,21 @@ p {
   padding-top: 10px;
 }
 
+.main-nav-menu {
+  display: flex;
+  background-color: var(--headerColor);
+  justify-content: center;
+  text-align: center;
+}
+
+.main-nav-items {
+  background-color: var(--headerColor);
+}
+
 .main-page-body {
   display: flex;
   flex-direction: column;
-  background-color: rgb(249, 232, 202);
+  background-color: var(--bodyColor);
   min-height: 95vh;
   max-height: max-content;
   margin: 0px;
@@ -43,7 +51,7 @@ p {
 
 footer {
   display: flex;
-  background-color: wheat;
+  background-color: red;
   height: 5vh;
   width: 100%;
   margin: 0px;
@@ -51,6 +59,12 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 25px;
+}
+
+ul li a {
+  color: var(--fontColor);
+  text-decoration: none;
+  color: var(--headingColor);
 }
 
 ul {
@@ -61,11 +75,6 @@ ul li {
   display: inline;
   padding: 15px;
   font-size: 42px;
-}
-
-ul li a {
-  color: Black;
-  text-decoration: none;
 }
 
 ul li a:hover {
@@ -100,7 +109,7 @@ ul li a:hover {
 }
 
 .contactMe a {
-  color: black;
+  color: var(--fontColor);
   text-decoration: none;
 }
 
@@ -172,7 +181,7 @@ ul li a:hover {
 }
 
 .portfolioDetails a {
-  color: black;
+  color: var(--fontColor);
   text-decoration: none;
 }
 
@@ -227,19 +236,14 @@ ul li a:hover {
 .columnDiv {
   margin-top: 5%;
   width: 100%;
-  /* background-color: green; */
 }
 
 .leftDiv {
-  /* visibility: visible; */
-  /* background-color: blue; */
   width: 50%;
   float: left;
 }
 
 .rightDiv {
-  /* visibility: visible; */
-  /* background-color: red; */
   width: 50%;
   float: right;
 }
@@ -253,7 +257,6 @@ ul li a:hover {
 }
 
 .skillsButtons {
-  /* background-color: aqua; */
   margin-left: 25%;
   margin-right: 25%;
   width: 50%;
@@ -339,7 +342,6 @@ ul li a:hover {
 @media screen and (max-width: 550px) {
 
   h1 {
-    color: black;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 30px;
