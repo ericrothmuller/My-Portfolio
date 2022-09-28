@@ -6,13 +6,25 @@ import '../../Style.css';
 export default function About() {
 
   const viewDevSkills = () => {
-    document.getElementById("devDiv").classList.remove('hiddenDiv');
-    document.getElementById("devDiv").classList.add('visibleDiv');
+    if (document.getElementById("devDiv").classList[0] === "hiddenDiv") {
+      document.getElementById("devDiv").classList.remove('hiddenDiv');
+      document.getElementById("devDiv").classList.add('visibleDiv');
+    }
+    else {
+      document.getElementById("devDiv").classList.remove('visibleDiv');
+      document.getElementById("devDiv").classList.add('hiddenDiv');
+    }
   };
 
   const viewMarkSkills = () => {
-    document.getElementById("marketingDiv").classList.remove('hiddenDiv');
-    document.getElementById("marketingDiv").classList.add('visibleDiv');
+    if (document.getElementById("marketingDiv").classList[0] === "hiddenDiv") {
+      document.getElementById("marketingDiv").classList.remove('hiddenDiv');
+      document.getElementById("marketingDiv").classList.add('visibleDiv');
+    }
+    else {
+      document.getElementById("marketingDiv").classList.remove('visibleDiv');
+      document.getElementById("marketingDiv").classList.add('hiddenDiv');
+    }
   };
 
   return (
