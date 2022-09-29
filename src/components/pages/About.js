@@ -49,7 +49,7 @@ export default function About() {
   };
 
   return (
-    <div className="aboutMe animate__animated animate__fadeIn">
+    <div className="aboutMe animate__animated animate__fadeIn backgroundImage">
       <h1>About Me</h1>
       <div className="aboutImageDiv">
       <img className="aboutImage animate__animated animate__slideInRight" src={require("../../images/Eric.jpg")} alt="Eric Rothmuller Headshot" title="Eric Rothmuller" />
@@ -72,7 +72,7 @@ export default function About() {
       <p>
       I am seeking a full-time permanent job that'll allow me to work as a web developer. I am willing to work in-office or remote and I am willing to relocate if needed. I am looking for a company that I could spend the rest of my professional life at.
       </p>
-
+<div>
     <div className="skillsButtons">
       <div className="columnDiv">
         <div id="leftDiv" className="leftDiv">
@@ -120,6 +120,6 @@ export default function About() {
       </div>
       </div>
     </div>
-    
+    </div>
   );
 }
