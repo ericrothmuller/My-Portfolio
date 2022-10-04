@@ -50,6 +50,11 @@ export default function About() {
 
   const certificate = require("../../images/U.C.Berkeley-Certificate.pdf");
 
+  const whiteStyle = {
+    color: "white",
+    textDecoration: "underline"
+  };
+
   return (
     <div className="aboutMe animate__animated animate__fadeIn backgroundImage">
       <h1>About Me</h1>
@@ -57,7 +62,7 @@ export default function About() {
       <img className="aboutImage animate__animated animate__slideInRight" src={require("../../images/Eric.jpg")} alt="Eric Rothmuller Headshot" title="Eric Rothmuller" />
     </div>
       <p>
-      My name is Eric Rothmuller and I'm a web developer living in Northern California. I have been working in the web design and online marketing field since 2011 and I graduated from <a href={certificate}>U.C. Berkeley's Full-Stack Coding Bootcamp</a> which had an emphasis on the <div class="merntooltip">MERN<span class="merntooltiptext">MongoDB, Express.js, React, and Node.js.</span></div> stack.
+      My name is Eric Rothmuller and I'm a web developer living in Northern California. I have been working in the web design and online marketing field since 2011 and I graduated from <a href={certificate} style={whiteStyle}>U.C. Berkeley's Full-Stack Coding Bootcamp</a> which had an emphasis on the <div class="merntooltip">MERN<span class="merntooltiptext">MongoDB, Express.js, React, and Node.js.</span></div> stack.
       </p>
 
     &nbsp;
