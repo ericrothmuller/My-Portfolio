@@ -158,7 +158,7 @@ ul li a:hover {
   width: 95%;
   border-radius: 10px;
   box-sizing: border-box;
-  border: 5px solid var(--headerColor);
+  border: 5px solid var(--accentColor);
   filter: drop-shadow(12px 10px 5px var(--headerColor));
 }
 
