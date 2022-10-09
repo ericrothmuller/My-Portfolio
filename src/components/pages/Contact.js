@@ -16,7 +16,7 @@ const blackColorBottom = {
 
 export default function Contact() {
   return (
-    <div className="contactMe animate__animated animate__fadeIn">
+    <div className="contactMe animate__animated animate__fadeIn backgroundImage">
       <div className="aboutImageDiv">
         <img
           className="contactImage"
