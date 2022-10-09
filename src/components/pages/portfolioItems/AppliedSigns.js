@@ -8,7 +8,7 @@ export default function AppliedSigns() {
         <strong>Description:</strong> A business website for a sign company.
       </p>
       <p>
-        <strong>Built for:</strong> Applied Signs
+        <strong>Built for:</strong> Applied Signs.
       </p>
       <p>
         <strong>Built with:</strong> HTML, CSS, Wordpress, and Paint.net.

@@ -10,7 +10,7 @@ export default function WeatherDashboard() {
         day forecast.
       </p>
       <p>
-        <strong>Built for:</strong> U.C. Berkeley Coding Bootcamp
+        <strong>Built for:</strong> U.C. Berkeley Coding Bootcamp.
       </p>
       <p>
         <strong>Built with:</strong> HTML, CSS, JavaScript, OpenWeather API,

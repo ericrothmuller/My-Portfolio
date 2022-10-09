@@ -1,15 +1,15 @@
 import React from "react";
 import "../../../Style.css";
 
-export default function EliteMd() {
+export default function SonomaCrust() {
   return (
     <div className="portfolioDetails animate__animated animate__fadeIn animate__faster">
       <p>
-        <strong>Description:</strong> A business website for a plastic surgery
-        and dermatology company.
+        <strong>Description:</strong> An eCommerce website built for a chicken
+        sandwich restaurant.
       </p>
       <p>
-        <strong>Built for:</strong> Elite MD.
+        <strong>Built for:</strong> Sonoma Crust.
       </p>
       <p>
         <strong>Built with:</strong> HTML, CSS, Wordpress, WooCommerce, and
@@ -17,7 +17,7 @@ export default function EliteMd() {
       </p>
       <p>
         <strong>Deployed link:</strong>{" "}
-        <a href="https://elitemdspa.com">elitemdspa.com</a>
+        <a href="https://sonomacrust.com/">sonomacrust.com</a>
       </p>
     </div>
   );

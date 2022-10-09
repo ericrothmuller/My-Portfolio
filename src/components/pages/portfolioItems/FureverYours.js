@@ -9,7 +9,7 @@ export default function FureverYours() {
         based on a user's search input.
       </p>
       <p>
-        <strong>Built for:</strong> U.C. Berkeley Coding Bootcamp
+        <strong>Built for:</strong> U.C. Berkeley Coding Bootcamp.
       </p>
       <p>
         <strong>Built with:</strong> HTML, CSS, JavaScript, Node, Express,

@@ -8,7 +8,7 @@ export default function MurderRidge() {
         <strong>Description:</strong> A business website for a winery.
       </p>
       <p>
-        <strong>Built for:</strong> Murder Ridge Winery
+        <strong>Built for:</strong> Murder Ridge Winery.
       </p>
       <p>
         <strong>Built with:</strong> HTML, CSS, and Wordpress.

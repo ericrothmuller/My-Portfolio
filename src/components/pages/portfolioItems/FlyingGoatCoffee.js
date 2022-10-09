@@ -5,11 +5,11 @@ export default function FlyingGoatCoffee() {
   return (
     <div className="portfolioDetails animate__animated animate__fadeIn animate__faster">
       <p>
-        <strong>Description:</strong> An eCommerce website build for a coffee
+        <strong>Description:</strong> An eCommerce website built for a coffee
         company.
       </p>
       <p>
-        <strong>Built for:</strong> Flying Goat Coffee
+        <strong>Built for:</strong> Flying Goat Coffee.
       </p>
       <p>
         <strong>Built with:</strong> HTML, CSS, Wordpress, WooCommerce, and

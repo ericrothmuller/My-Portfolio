@@ -8,7 +8,7 @@ export default function JavaScriptCodeChallenge() {
         <strong>Description:</strong> A timed JavaScript quiz.
       </p>
       <p>
-        <strong>Built for:</strong> U.C. Berkeley Coding Bootcamp
+        <strong>Built for:</strong> U.C. Berkeley Coding Bootcamp.
       </p>
       <p>
         <strong>Built with:</strong> HTML, CSS, JavaScript, Git, and GitHub.

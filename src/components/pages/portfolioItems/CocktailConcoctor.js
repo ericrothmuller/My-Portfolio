@@ -9,7 +9,7 @@ export default function CocktailConcoctor() {
         recipes based on input ingredients.
       </p>
       <p>
-        <strong>Built for:</strong> U.C. Berkeley Coding Bootcamp
+        <strong>Built for:</strong> U.C. Berkeley Coding Bootcamp.
       </p>
       <p>
         <strong>Built with:</strong> HTML, CSS, JavaScript, Tailwind, The

@@ -10,6 +10,8 @@ import FlyingGoatCoffee from "./portfolioItems/FlyingGoatCoffee";
 import AppliedSigns from "./portfolioItems/AppliedSigns";
 import FureverYours from "./portfolioItems/FureverYours";
 import WorkDayScheduler from "./portfolioItems/WorkDayScheduler";
+import SonomaCrust from "./portfolioItems/SonomaCrust";
+import FlakeyCream from "./portfolioItems/FlakeyCream";
 
 const centerP = {
   textAlign: "center",
@@ -26,6 +28,8 @@ export default function Portfolio() {
   const [imageEightIsOpen, toggleImageEight] = useState(false);
   const [imageNineIsOpen, toggleImageNine] = useState(false);
   const [imageTenIsOpen, toggleImageTen] = useState(false);
+  const [imageElevenIsOpen, toggleImageEleven] = useState(false);
+  const [imageTwelveIsOpen, toggleImageTwelve] = useState(false);
 
   const toggleImageFunction = (state, setState) => {
     if (state === false) {
@@ -156,6 +160,30 @@ export default function Portfolio() {
             onClick={() => toggleImageFunction(imageTenIsOpen, toggleImageTen)}
           />
           {imageTenIsOpen ? <WorkDayScheduler /> : null}
+        </div>
+        <div className="portfolioDiv">
+          <img
+            className="portfolioImage"
+            src={require("../../images/Sonoma-Crust-Screenshot.jpg")}
+            alt="Sonoma Crust Portfolio"
+            title="Sonoma Crust"
+            onClick={() =>
+              toggleImageFunction(imageElevenIsOpen, toggleImageEleven)
+            }
+          />
+          {imageElevenIsOpen ? <SonomaCrust /> : null}
+        </div>
+        <div className="portfolioDiv">
+          <img
+            className="portfolioImage"
+            src={require("../../images/Flakey-Cream-Screenshot.jpg")}
+            alt="Flakey Cream Portfolio"
+            title="Flakey Cream"
+            onClick={() =>
+              toggleImageFunction(imageTwelveIsOpen, toggleImageTwelve)
+            }
+          />
+          {imageTwelveIsOpen ? <FlakeyCream /> : null}
         </div>
       </div>
     </div>

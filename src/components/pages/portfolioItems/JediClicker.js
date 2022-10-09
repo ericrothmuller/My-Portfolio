@@ -8,7 +8,7 @@ export default function JediClicker() {
         <strong>Description:</strong> A Star Wars based clicker game.
       </p>
       <p>
-        <strong>Built for:</strong> U.C. Berkeley Coding Bootcamp
+        <strong>Built for:</strong> U.C. Berkeley Coding Bootcamp.
       </p>
       <p>
         <strong>Built with:</strong> HTML, CSS, JavaScript, Node, Express,
