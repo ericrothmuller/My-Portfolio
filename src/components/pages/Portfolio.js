@@ -18,6 +18,8 @@ export default function Portfolio() {
   const [imageFourIsOpen, toggleImageFour] = useState(false);
   const [imageFiveIsOpen, toggleImageFive] = useState(false);
   const [imageSixIsOpen, toggleImageSix] = useState(false);
+  const [imageSevenIsOpen, toggleImageSeven] = useState(false);
+  const [imageEightIsOpen, toggleImageEight] = useState(false);
 
   const toggleImageFunction = (state, setState) => {
     if (state === false) {
@@ -102,6 +104,30 @@ export default function Portfolio() {
             onClick={() => toggleImageFunction(imageSixIsOpen, toggleImageSix)}
           />
           {imageSixIsOpen ? <JavaScriptCodeChallenge /> : null}
+        </div>
+        <div className="portfolioDiv">
+          <img
+            className="portfolioImage"
+            src={require("../../images/JavaScript-Code-Challenge-Screenshot.jpg")}
+            alt="Murder Ridge Portfolio"
+            title="Murder Ridge"
+            onClick={() =>
+              toggleImageFunction(imageSevenIsOpen, toggleImageSeven)
+            }
+          />
+          {imageSevenIsOpen ? <JavaScriptCodeChallenge /> : null}
+        </div>
+        <div className="portfolioDiv">
+          <img
+            className="portfolioImage"
+            src={require("../../images/JavaScript-Code-Challenge-Screenshot.jpg")}
+            alt="Murder Ridge Portfolio"
+            title="Murder Ridge"
+            onClick={() =>
+              toggleImageFunction(imageEightIsOpen, toggleImageEight)
+            }
+          />
+          {imageEightIsOpen ? <JavaScriptCodeChallenge /> : null}
         </div>
       </div>
     </div>
