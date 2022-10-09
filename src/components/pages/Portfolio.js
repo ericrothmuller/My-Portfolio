@@ -19,6 +19,11 @@ const centerP = {
   textAlign: "center",
 };
 
+const spaceBottom = {
+  paddingTop: "15px",
+  paddingBottom: "25px",
+};
+
 export default function Portfolio() {
   const [imageOneIsOpen, toggleimageOneIsOpen] = useState(false);
   const [imageTwoIsOpen, toggleImageTwo] = useState(false);
@@ -213,6 +218,11 @@ export default function Portfolio() {
           />
           {imageFourteenIsOpen ? <ImageAthletic /> : null}
         </div>
+        <p style={spaceBottom}>
+          Note: This is just a portion of the items I've made to give you an
+          idea of the type of work I've done. This is not all of the items I've
+          created.
+        </p>
       </div>
     </div>
   );
