@@ -6,6 +6,8 @@ import EliteMd from "./portfolioItems/EliteMd";
 import MurderRidge from "./portfolioItems/MurderRidge";
 import WeatherDashboard from "./portfolioItems/WeatherDashboard";
 import JavaScriptCodeChallenge from "./portfolioItems/JavaScriptCodeChallenge";
+import FlyingGoatCoffee from "./portfolioItems/FlyingGoatCoffee";
+import AppliedSigns from "./portfolioItems/AppliedSigns";
 
 const centerP = {
   textAlign: "center",
@@ -75,8 +77,8 @@ export default function Portfolio() {
           <img
             className="portfolioImage"
             src={require("../../images/Murder-Ridge-Screenshot.jpg")}
-            alt="Murder Ridge Portfolio"
-            title="Murder Ridge"
+            alt="Murder Ridge Winery Portfolio"
+            title="Murder Ridge Winery"
             onClick={() =>
               toggleImageFunction(imageFourIsOpen, toggleImageFour)
             }
@@ -87,8 +89,8 @@ export default function Portfolio() {
           <img
             className="portfolioImage"
             src={require("../../images/Weather-Dashboard-Screenshot.jpg")}
-            alt="Murder Ridge Portfolio"
-            title="Murder Ridge"
+            alt="Weather Dashboard Portfolio"
+            title="Weather Dashboard"
             onClick={() =>
               toggleImageFunction(imageFiveIsOpen, toggleImageFive)
             }
@@ -99,8 +101,8 @@ export default function Portfolio() {
           <img
             className="portfolioImage"
             src={require("../../images/JavaScript-Code-Challenge-Screenshot.jpg")}
-            alt="Murder Ridge Portfolio"
-            title="Murder Ridge"
+            alt="JavaScript Code Challenge Portfolio"
+            title="JavaScript Code Challenge"
             onClick={() => toggleImageFunction(imageSixIsOpen, toggleImageSix)}
           />
           {imageSixIsOpen ? <JavaScriptCodeChallenge /> : null}
@@ -108,26 +110,26 @@ export default function Portfolio() {
         <div className="portfolioDiv">
           <img
             className="portfolioImage"
-            src={require("../../images/JavaScript-Code-Challenge-Screenshot.jpg")}
-            alt="Murder Ridge Portfolio"
-            title="Murder Ridge"
+            src={require("../../images/Flying-Goat-Screenshot.jpg")}
+            alt="Flying Goat Coffee Portfolio"
+            title="Flying Goat Coffee"
             onClick={() =>
               toggleImageFunction(imageSevenIsOpen, toggleImageSeven)
             }
           />
-          {imageSevenIsOpen ? <JavaScriptCodeChallenge /> : null}
+          {imageSevenIsOpen ? <FlyingGoatCoffee /> : null}
         </div>
         <div className="portfolioDiv">
           <img
             className="portfolioImage"
-            src={require("../../images/JavaScript-Code-Challenge-Screenshot.jpg")}
-            alt="Murder Ridge Portfolio"
-            title="Murder Ridge"
+            src={require("../../images/Applied-Signs-Screenshot.jpg")}
+            alt="Applied Signs Portfolio"
+            title="Applied Signs"
             onClick={() =>
               toggleImageFunction(imageEightIsOpen, toggleImageEight)
             }
           />
-          {imageEightIsOpen ? <JavaScriptCodeChallenge /> : null}
+          {imageEightIsOpen ? <AppliedSigns /> : null}
         </div>
       </div>
     </div>
