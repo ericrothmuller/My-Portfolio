@@ -30,6 +30,8 @@ export default function Portfolio() {
   const [imageTenIsOpen, toggleImageTen] = useState(false);
   const [imageElevenIsOpen, toggleImageEleven] = useState(false);
   const [imageTwelveIsOpen, toggleImageTwelve] = useState(false);
+  const [imageThirteenIsOpen, toggleImageThirteen] = useState(false);
+  const [imageFourteenIsOpen, toggleImageFourteen] = useState(false);
 
   const toggleImageFunction = (state, setState) => {
     if (state === false) {
@@ -184,6 +186,30 @@ export default function Portfolio() {
             }
           />
           {imageTwelveIsOpen ? <FlakeyCream /> : null}
+        </div>
+        <div className="portfolioDiv">
+          <img
+            className="portfolioImage"
+            src={require("../../images/Four-Seasons-Vineyard-Management-Screenshot.jpg")}
+            alt="Four Seasons Vineyard Management Portfolio"
+            title="Four Seasons Vineyard Management"
+            onClick={() =>
+              toggleImageFunction(imageThirteenIsOpen, toggleImageThirteen)
+            }
+          />
+          {imageThirteenIsOpen ? <FlakeyCream /> : null}
+        </div>
+        <div className="portfolioDiv">
+          <img
+            className="portfolioImage"
+            src={require("../../images/Image-Athletic-Screenshot.jpg")}
+            alt="Image Athletic Portfolio"
+            title="Image Athletic"
+            onClick={() =>
+              toggleImageFunction(imageFourteenIsOpen, toggleImageFourteen)
+            }
+          />
+          {imageFourteenIsOpen ? <FlakeyCream /> : null}
         </div>
       </div>
     </div>
