@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.b8306e74.css",
-    "main.js": "/My-Portfolio/static/js/main.40b4484f.js",
+    "main.js": "/My-Portfolio/static/js/main.d604bbc0.js",
     "static/js/787.128fc6e9.chunk.js": "/My-Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/Sonoma-Crust-Screenshot.jpg": "/My-Portfolio/static/media/Sonoma-Crust-Screenshot.d80977f793cc0b9af87b.jpg",
     "static/media/Murder-Ridge-Screenshot.jpg": "/My-Portfolio/static/media/Murder-Ridge-Screenshot.14b4725012a10b2615f2.jpg",
     "static/media/Applied-Signs-Screenshot.jpg": "/My-Portfolio/static/media/Applied-Signs-Screenshot.954dea443a750510bb9c.jpg",
     "static/media/U.C.Berkeley-Certificate.pdf": "/My-Portfolio/static/media/U.C.Berkeley-Certificate.6334310a78fdf2d4c678.pdf",
     "static/media/Fall-Background-Image.png": "/My-Portfolio/static/media/Fall-Background-Image.c2386739fa127606a978.png",
     "static/media/Furever-Yours-Screenshot.jpg": "/My-Portfolio/static/media/Furever-Yours-Screenshot.26096b9d4beebb8f4131.jpg",
+    "static/media/Flakey-Cream-Screenshot.jpg": "/My-Portfolio/static/media/Flakey-Cream-Screenshot.a7515af3cb0acc8360da.jpg",
     "static/media/Elite-MD-Screenshot.jpg": "/My-Portfolio/static/media/Elite-MD-Screenshot.37a4fafed9dc0af51ff5.jpg",
     "static/media/Eric-Rothmuller-Resume.jpg": "/My-Portfolio/static/media/Eric-Rothmuller-Resume.7f9d1a82c59c407424ed.jpg",
     "static/media/Flying-Goat-Screenshot.jpg": "/My-Portfolio/static/media/Flying-Goat-Screenshot.7ff57bc08882145df346.jpg",
@@ -20,11 +22,11 @@
     "static/media/Eric.jpg": "/My-Portfolio/static/media/Eric.92fbb2ef10d0e559afed.jpg",
     "index.html": "/My-Portfolio/index.html",
     "main.b8306e74.css.map": "/My-Portfolio/static/css/main.b8306e74.css.map",
-    "main.40b4484f.js.map": "/My-Portfolio/static/js/main.40b4484f.js.map",
+    "main.d604bbc0.js.map": "/My-Portfolio/static/js/main.d604bbc0.js.map",
     "787.128fc6e9.chunk.js.map": "/My-Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8306e74.css",
-    "static/js/main.40b4484f.js"
+    "static/js/main.d604bbc0.js"
   ]
 }
