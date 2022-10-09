@@ -13,7 +13,7 @@ export default function JediClicker() {
       <p>
         <strong>Built with:</strong> HTML, CSS, JavaScript, Node, Express,
         MySQL2, Bcrypt, Sequelize, Connect Session Sequelize, Dotenv, Express
-        Handlebars, Handlebars, Paint.net, and GitHub.
+        Handlebars, Handlebars, Paint.net, Git, GitHub, and Heroku.
       </p>
       <p>
         <strong>Deployed link:</strong>{" "}

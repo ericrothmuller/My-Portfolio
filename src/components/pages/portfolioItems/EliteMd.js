@@ -13,7 +13,7 @@ export default function EliteMd() {
       </p>
       <p>
         <strong>Built with:</strong> HTML, CSS, Wordpress, WooCommerce, and
-        paint.net.
+        Paint.net.
       </p>
       <p>
         <strong>Deployed link:</strong>{" "}

@@ -4,6 +4,8 @@ import CocktailConcoctor from "./portfolioItems/CocktailConcoctor";
 import JediClicker from "./portfolioItems/JediClicker";
 import EliteMd from "./portfolioItems/EliteMd";
 import MurderRidge from "./portfolioItems/MurderRidge";
+import WeatherDashboard from "./portfolioItems/WeatherDashboard";
+import JavaScriptCodeChallenge from "./portfolioItems/JavaScriptCodeChallenge";
 
 const centerP = {
   textAlign: "center",
@@ -14,6 +16,8 @@ export default function Portfolio() {
   const [imageTwoIsOpen, toggleImageTwo] = useState(false);
   const [imageThreeIsOpen, toggleImageThree] = useState(false);
   const [imageFourIsOpen, toggleImageFour] = useState(false);
+  const [imageFiveIsOpen, toggleImageFive] = useState(false);
+  const [imageSixIsOpen, toggleImageSix] = useState(false);
 
   const toggleImageFunction = (state, setState) => {
     if (state === false) {
@@ -80,26 +84,24 @@ export default function Portfolio() {
         <div className="portfolioDiv">
           <img
             className="portfolioImage"
-            src={require("../../images/Murder-Ridge-Screenshot.jpg")}
+            src={require("../../images/Weather-Dashboard-Screenshot.jpg")}
             alt="Murder Ridge Portfolio"
             title="Murder Ridge"
             onClick={() =>
-              toggleImageFunction(imageFourIsOpen, toggleImageFour)
+              toggleImageFunction(imageFiveIsOpen, toggleImageFive)
             }
           />
-          {imageFourIsOpen ? <MurderRidge /> : null}
+          {imageFiveIsOpen ? <WeatherDashboard /> : null}
         </div>
         <div className="portfolioDiv">
           <img
             className="portfolioImage"
-            src={require("../../images/Murder-Ridge-Screenshot.jpg")}
+            src={require("../../images/JavaScript-Code-Challenge-Screenshot.jpg")}
             alt="Murder Ridge Portfolio"
             title="Murder Ridge"
-            onClick={() =>
-              toggleImageFunction(imageFourIsOpen, toggleImageFour)
-            }
+            onClick={() => toggleImageFunction(imageSixIsOpen, toggleImageSix)}
           />
-          {imageFourIsOpen ? <MurderRidge /> : null}
+          {imageSixIsOpen ? <JavaScriptCodeChallenge /> : null}
         </div>
       </div>
     </div>

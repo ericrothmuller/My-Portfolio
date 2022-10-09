@@ -13,7 +13,7 @@ export default function CocktailConcoctor() {
       </p>
       <p>
         <strong>Built with:</strong> HTML, CSS, JavaScript, Tailwind, The
-        CocktailDB API, YouTube API, Google Fonts API, Awesomplete API, and
+        CocktailDB API, YouTube API, Google Fonts API, Awesomplete API, Git, and
         GitHub.
       </p>
       <p>
