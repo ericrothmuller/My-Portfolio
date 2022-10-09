@@ -12,6 +12,8 @@ import FureverYours from "./portfolioItems/FureverYours";
 import WorkDayScheduler from "./portfolioItems/WorkDayScheduler";
 import SonomaCrust from "./portfolioItems/SonomaCrust";
 import FlakeyCream from "./portfolioItems/FlakeyCream";
+import FourSeasons from "./portfolioItems/FourSeasons";
+import ImageAthletic from "./portfolioItems/ImageAthletic";
 
 const centerP = {
   textAlign: "center",
@@ -197,7 +199,7 @@ export default function Portfolio() {
               toggleImageFunction(imageThirteenIsOpen, toggleImageThirteen)
             }
           />
-          {imageThirteenIsOpen ? <FlakeyCream /> : null}
+          {imageThirteenIsOpen ? <FourSeasons /> : null}
         </div>
         <div className="portfolioDiv">
           <img
@@ -209,7 +211,7 @@ export default function Portfolio() {
               toggleImageFunction(imageFourteenIsOpen, toggleImageFourteen)
             }
           />
-          {imageFourteenIsOpen ? <FlakeyCream /> : null}
+          {imageFourteenIsOpen ? <ImageAthletic /> : null}
         </div>
       </div>
     </div>
