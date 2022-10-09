@@ -8,6 +8,8 @@ import WeatherDashboard from "./portfolioItems/WeatherDashboard";
 import JavaScriptCodeChallenge from "./portfolioItems/JavaScriptCodeChallenge";
 import FlyingGoatCoffee from "./portfolioItems/FlyingGoatCoffee";
 import AppliedSigns from "./portfolioItems/AppliedSigns";
+import FureverYours from "./portfolioItems/FureverYours";
+import WorkDayScheduler from "./portfolioItems/WorkDayScheduler";
 
 const centerP = {
   textAlign: "center",
@@ -22,6 +24,8 @@ export default function Portfolio() {
   const [imageSixIsOpen, toggleImageSix] = useState(false);
   const [imageSevenIsOpen, toggleImageSeven] = useState(false);
   const [imageEightIsOpen, toggleImageEight] = useState(false);
+  const [imageNineIsOpen, toggleImageNine] = useState(false);
+  const [imageTenIsOpen, toggleImageTen] = useState(false);
 
   const toggleImageFunction = (state, setState) => {
     if (state === false) {
@@ -130,6 +134,28 @@ export default function Portfolio() {
             }
           />
           {imageEightIsOpen ? <AppliedSigns /> : null}
+        </div>
+        <div className="portfolioDiv">
+          <img
+            className="portfolioImage"
+            src={require("../../images/Furever-Yours-Screenshot.jpg")}
+            alt="Furever Yours Portfolio"
+            title="Furever Yours"
+            onClick={() =>
+              toggleImageFunction(imageNineIsOpen, toggleImageNine)
+            }
+          />
+          {imageNineIsOpen ? <FureverYours /> : null}
+        </div>
+        <div className="portfolioDiv">
+          <img
+            className="portfolioImage"
+            src={require("../../images/Work-Day-Scheduler-Screenshot.jpg")}
+            alt="Work Day Scheduler Portfolio"
+            title="Work Day Scheduler"
+            onClick={() => toggleImageFunction(imageTenIsOpen, toggleImageTen)}
+          />
+          {imageTenIsOpen ? <WorkDayScheduler /> : null}
         </div>
       </div>
     </div>
