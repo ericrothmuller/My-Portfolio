@@ -1,24 +1,30 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.76794a4c.css",
-    "main.js": "/My-Portfolio/static/js/main.fe2a08ea.js",
+    "main.js": "/My-Portfolio/static/js/main.a3bdaf45.js",
     "static/js/787.128fc6e9.chunk.js": "/My-Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Murder-Ridge-Screenshot.jpg": "/My-Portfolio/static/media/Murder-Ridge-Screenshot.14b4725012a10b2615f2.jpg",
+    "static/media/Applied-Signs-Screenshot.jpg": "/My-Portfolio/static/media/Applied-Signs-Screenshot.954dea443a750510bb9c.jpg",
     "static/media/U.C.Berkeley-Certificate.pdf": "/My-Portfolio/static/media/U.C.Berkeley-Certificate.6334310a78fdf2d4c678.pdf",
     "static/media/Fall-Background-Image.png": "/My-Portfolio/static/media/Fall-Background-Image.c2386739fa127606a978.png",
+    "static/media/Furever-Yours-Screenshot.jpg": "/My-Portfolio/static/media/Furever-Yours-Screenshot.26096b9d4beebb8f4131.jpg",
     "static/media/Elite-MD-Screenshot.jpg": "/My-Portfolio/static/media/Elite-MD-Screenshot.37a4fafed9dc0af51ff5.jpg",
     "static/media/Eric-Rothmuller-Resume.jpg": "/My-Portfolio/static/media/Eric-Rothmuller-Resume.7f9d1a82c59c407424ed.jpg",
+    "static/media/Flying-Goat-Screenshot.jpg": "/My-Portfolio/static/media/Flying-Goat-Screenshot.7ff57bc08882145df346.jpg",
     "static/media/Cocktail-Concoctor-Screen-Shot.jpg": "/My-Portfolio/static/media/Cocktail-Concoctor-Screen-Shot.ed3f8bbff927a98e1bbb.jpg",
     "static/media/Jedi-Clicker-Screen-Shot.jpg": "/My-Portfolio/static/media/Jedi-Clicker-Screen-Shot.f027e5a9568ea90361ed.jpg",
+    "static/media/JavaScript-Code-Challenge-Screenshot.jpg": "/My-Portfolio/static/media/JavaScript-Code-Challenge-Screenshot.b70ab8a3061b709b525d.jpg",
+    "static/media/Weather-Dashboard-Screenshot.jpg": "/My-Portfolio/static/media/Weather-Dashboard-Screenshot.1a235eff996c9c2aca61.jpg",
+    "static/media/Work-Day-Scheduler-Screenshot.jpg": "/My-Portfolio/static/media/Work-Day-Scheduler-Screenshot.98ad8eed152f38d629e0.jpg",
     "static/media/Eric-Rothmuller-Resume.pdf": "/My-Portfolio/static/media/Eric-Rothmuller-Resume.cddda769506978ef82d5.pdf",
     "static/media/Eric.jpg": "/My-Portfolio/static/media/Eric.92fbb2ef10d0e559afed.jpg",
     "index.html": "/My-Portfolio/index.html",
     "main.76794a4c.css.map": "/My-Portfolio/static/css/main.76794a4c.css.map",
-    "main.fe2a08ea.js.map": "/My-Portfolio/static/js/main.fe2a08ea.js.map",
+    "main.a3bdaf45.js.map": "/My-Portfolio/static/js/main.a3bdaf45.js.map",
     "787.128fc6e9.chunk.js.map": "/My-Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76794a4c.css",
-    "static/js/main.fe2a08ea.js"
+    "static/js/main.a3bdaf45.js"
   ]
 }
