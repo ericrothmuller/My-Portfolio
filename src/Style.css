@@ -1,15 +1,15 @@
 :root {
-  --headingColor: #E0DEBF;
-  --fontColor: #FFFFFF;
+  --headingColor: #e0debf;
+  --fontColor: #ffffff;
   --headerColor: #161817;
-  --bodyColor: #DA7D29;
-  --titleColor: #E0DEBF;
-  --accentColor: #E0DEBF;
-  --buttonColor: #EA9944;
+  --bodyColor: #da7d29;
+  --titleColor: #e0debf;
+  --accentColor: #e0debf;
+  --buttonColor: #ea9944;
 }
 
 * {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -70,7 +70,7 @@ footer {
 }
 
 #footerText {
-  color: var(--headingColor)
+  color: var(--headingColor);
 }
 
 ul li a {
@@ -107,6 +107,14 @@ ul li a:hover {
   margin-top: 1%;
   margin-bottom: 1%;
   margin-left: 1%;
+}
+
+.contactImage {
+  border: 5px var(--accentColor) solid;
+  border-radius: 10px;
+  float: center;
+  margin-top: 2%;
+  margin-bottom: 0%;
 }
 
 .contactMe {
@@ -163,7 +171,7 @@ ul li a:hover {
 }
 
 .portfolioImage:hover {
-  opacity: .8;
+  opacity: 0.8;
   cursor: pointer;
 }
 
@@ -175,9 +183,9 @@ ul li a:hover {
   padding-left: 15px;
 }
 
- .portfolioDetails p {
- padding: 5px;
- font-size: 20px;
+.portfolioDetails p {
+  padding: 5px;
+  font-size: 20px;
 }
 
 .portfolioDetails a {
@@ -274,7 +282,7 @@ ul li a:hover {
 }
 
 .developerSkillsButton:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .marketingSkillsButton {
@@ -288,7 +296,7 @@ ul li a:hover {
 }
 
 .marketingSkillsButton:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .backgroundImage {
@@ -306,7 +314,6 @@ ul li a:hover {
 }
 
 @media screen and (max-width: 1220px) {
-
   .aboutImageDiv {
     display: flex;
     justify-content: center;
@@ -325,7 +332,6 @@ ul li a:hover {
     width: 100%;
   }
 }
-
 
 @media screen and (max-width: 850px) {
   .aboutImage {
@@ -353,7 +359,6 @@ ul li a:hover {
 }
 
 @media screen and (max-width: 550px) {
-
   h1 {
     padding-left: 10px;
     padding-right: 10px;
@@ -378,7 +383,7 @@ ul li a:hover {
     font-size: 30px;
     margin: 0px;
     padding-top: 5px;
-}
+  }
 
   #devDiv .normalUl {
     font-size: 22px;
@@ -386,9 +391,9 @@ ul li a:hover {
 
   .marketingSkillsButton {
     font-size: 24px;
-}
+  }
 
-#marketingDiv .normalUl {
-  font-size: 22px;
-}
+  #marketingDiv .normalUl {
+    font-size: 22px;
+  }
 }
