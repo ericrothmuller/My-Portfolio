@@ -19,8 +19,17 @@ const centerP = {
   textAlign: "center",
 };
 
-const spaceBottom = {
+const spaceTop = {
   paddingTop: "15px",
+  fontWeight: "700",
+};
+
+const spaceMiddle = {
+  paddingTop: "15px",
+  paddingBottom: "15px",
+};
+
+const spaceBottom = {
   paddingBottom: "25px",
 };
 
@@ -218,10 +227,13 @@ export default function Portfolio() {
           />
           {imageFourteenIsOpen ? <ImageAthletic /> : null}
         </div>
+        <p style={spaceTop}>Note:</p>
+        <p style={spaceMiddle}>
+          This is just a portion of the items I've made to give you an idea of
+          the type of work I've done. This is not all of the items I've created.
+        </p>
         <p style={spaceBottom}>
-          Note: This is just a portion of the items I've made to give you an
-          idea of the type of work I've done. This is not all of the items I've
-          created.
+          This portfolio website was created using React.
         </p>
       </div>
     </div>
