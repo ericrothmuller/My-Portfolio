@@ -2,6 +2,18 @@ import React from "react";
 import "../../Style.css";
 
 export default function About() {
+  const pStyle = {
+    fontSize: "28px",
+    marginTop: "0px",
+    marginRight: "1%",
+    marginBottom: "0px",
+    marginLeft: "1%",
+    color: "var(--fontColor)",
+    padding: "0px",
+    paddingLeft: "15px",
+    paddingRight: "15px",
+  };
+
   const viewDevSkills = () => {
     if (document.getElementById("devDiv").classList[0] === "hiddenDiv") {
       document.getElementById("devDiv").classList.remove("hiddenDiv");
@@ -78,7 +90,7 @@ export default function About() {
           title="Eric Rothmuller"
         />
       </div>
-      <p>
+      <div style={pStyle}>
         My name is Eric Rothmuller and I'm a web developer living in Northern
         California. I have been working in the web design and online marketing
         field since 2011 and I graduated from{" "}
@@ -99,7 +111,7 @@ export default function About() {
           </span>
         </div>{" "}
         stack.
-      </p>
+      </div>
       &nbsp;
       <p>
         Outside of my over a decade long web design and online marketing
