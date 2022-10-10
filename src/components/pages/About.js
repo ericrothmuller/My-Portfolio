@@ -92,9 +92,9 @@ export default function About() {
           U.C. Berkeley's Full-Stack Coding Bootcamp
         </a>{" "}
         which had an emphasis on the{" "}
-        <div class="merntooltip">
+        <div className="merntooltip">
           MERN
-          <span class="merntooltiptext">
+          <span className="merntooltiptext">
             MongoDB, Express.js, React, and Node.js.
           </span>
         </div>{" "}
