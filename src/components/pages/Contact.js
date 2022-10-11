@@ -12,6 +12,7 @@ const blackColorBottom = {
   color: "black",
   fontWeight: "700",
   paddingTop: "15px",
+  paddingBottom: "15px",
 };
 
 export default function Contact() {

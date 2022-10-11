@@ -156,7 +156,7 @@ export default function About() {
                   <li className="normalUl">Mongoose</li>
                   <li className="normalUl">REST APIs</li>
                   <li className="normalUl">Third-party APIs</li>
-                  <li className="normalUl">Mongoose</li>3
+                  <li className="normalUl">Mongoose</li>
                   <li className="normalUl">Git and GitHub</li>
                   <li className="normalUl">Dev Tools</li>
                 </ul>

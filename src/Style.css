@@ -304,7 +304,8 @@ ul li a:hover {
   background-size: cover;
   background-color: var(--bodyColor);
   width: 100%;
-  min-height: fit-content;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 @media screen and (max-width: 1100px) {
