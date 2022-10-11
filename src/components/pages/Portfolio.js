@@ -65,167 +65,187 @@ export default function Portfolio() {
         each image for more information on each project.
       </p>
       <div className="cardsDiv">
-        <div className="portfolioDiv">
-          <img
-            className="portfolioImage"
-            src={require("../../images/Cocktail-Concoctor-Screen-Shot.jpg")}
-            alt="Cocktail Concocter Portfolio"
-            title="Cocktail Concocter"
-            onClick={() =>
-              toggleImageFunction(imageOneIsOpen, toggleimageOneIsOpen)
-            }
-          />
-          {imageOneIsOpen ? <CocktailConcoctor /> : null}
+        <div className="row">
+          <div className="portfolioDiv">
+            <img
+              className="portfolioImage"
+              src={require("../../images/Cocktail-Concoctor-Screen-Shot.jpg")}
+              alt="Cocktail Concocter Portfolio"
+              title="Cocktail Concocter"
+              onClick={() =>
+                toggleImageFunction(imageOneIsOpen, toggleimageOneIsOpen)
+              }
+            />
+            {imageOneIsOpen ? <CocktailConcoctor /> : null}
+          </div>
+          <div className="portfolioDiv">
+            <img
+              className="portfolioImage"
+              src={require("../../images/Jedi-Clicker-Screen-Shot.jpg")}
+              alt="Jedi Clicker Portfolio"
+              title="Jedi Clicker"
+              onClick={() =>
+                toggleImageFunction(imageTwoIsOpen, toggleImageTwo)
+              }
+            />
+            {imageTwoIsOpen ? <JediClicker /> : null}
+          </div>
         </div>
-        <div className="portfolioDiv">
-          <img
-            className="portfolioImage"
-            src={require("../../images/Jedi-Clicker-Screen-Shot.jpg")}
-            alt="Jedi Clicker Portfolio"
-            title="Jedi Clicker"
-            onClick={() => toggleImageFunction(imageTwoIsOpen, toggleImageTwo)}
-          />
-          {imageTwoIsOpen ? <JediClicker /> : null}
+        <div className="row">
+          <div className="portfolioDiv">
+            <img
+              className="portfolioImage"
+              src={require("../../images/Elite-MD-Screenshot.jpg")}
+              alt="Elite MD Portfolio"
+              title="Elite MD"
+              onClick={() =>
+                toggleImageFunction(imageThreeIsOpen, toggleImageThree)
+              }
+            />
+            {imageThreeIsOpen ? <EliteMd /> : null}
+          </div>
+          <div className="portfolioDiv">
+            <img
+              className="portfolioImage"
+              src={require("../../images/Murder-Ridge-Screenshot.jpg")}
+              alt="Murder Ridge Winery Portfolio"
+              title="Murder Ridge Winery"
+              onClick={() =>
+                toggleImageFunction(imageFourIsOpen, toggleImageFour)
+              }
+            />
+            {imageFourIsOpen ? <MurderRidge /> : null}
+          </div>
         </div>
-        <div className="portfolioDiv">
-          <img
-            className="portfolioImage"
-            src={require("../../images/Elite-MD-Screenshot.jpg")}
-            alt="Elite MD Portfolio"
-            title="Elite MD"
-            onClick={() =>
-              toggleImageFunction(imageThreeIsOpen, toggleImageThree)
-            }
-          />
-          {imageThreeIsOpen ? <EliteMd /> : null}
+        <div className="row">
+          <div className="portfolioDiv">
+            <img
+              className="portfolioImage"
+              src={require("../../images/Weather-Dashboard-Screenshot.jpg")}
+              alt="Weather Dashboard Portfolio"
+              title="Weather Dashboard"
+              onClick={() =>
+                toggleImageFunction(imageFiveIsOpen, toggleImageFive)
+              }
+            />
+            {imageFiveIsOpen ? <WeatherDashboard /> : null}
+          </div>
+          <div className="portfolioDiv">
+            <img
+              className="portfolioImage"
+              src={require("../../images/JavaScript-Code-Challenge-Screenshot.jpg")}
+              alt="JavaScript Code Challenge Portfolio"
+              title="JavaScript Code Challenge"
+              onClick={() =>
+                toggleImageFunction(imageSixIsOpen, toggleImageSix)
+              }
+            />
+            {imageSixIsOpen ? <JavaScriptCodeChallenge /> : null}
+          </div>
         </div>
-        <div className="portfolioDiv">
-          <img
-            className="portfolioImage"
-            src={require("../../images/Murder-Ridge-Screenshot.jpg")}
-            alt="Murder Ridge Winery Portfolio"
-            title="Murder Ridge Winery"
-            onClick={() =>
-              toggleImageFunction(imageFourIsOpen, toggleImageFour)
-            }
-          />
-          {imageFourIsOpen ? <MurderRidge /> : null}
+        <div className="row">
+          <div className="portfolioDiv">
+            <img
+              className="portfolioImage"
+              src={require("../../images/Flying-Goat-Screenshot.jpg")}
+              alt="Flying Goat Coffee Portfolio"
+              title="Flying Goat Coffee"
+              onClick={() =>
+                toggleImageFunction(imageSevenIsOpen, toggleImageSeven)
+              }
+            />
+            {imageSevenIsOpen ? <FlyingGoatCoffee /> : null}
+          </div>
+          <div className="portfolioDiv">
+            <img
+              className="portfolioImage"
+              src={require("../../images/Applied-Signs-Screenshot.jpg")}
+              alt="Applied Signs Portfolio"
+              title="Applied Signs"
+              onClick={() =>
+                toggleImageFunction(imageEightIsOpen, toggleImageEight)
+              }
+            />
+            {imageEightIsOpen ? <AppliedSigns /> : null}
+          </div>
         </div>
-        <div className="portfolioDiv">
-          <img
-            className="portfolioImage"
-            src={require("../../images/Weather-Dashboard-Screenshot.jpg")}
-            alt="Weather Dashboard Portfolio"
-            title="Weather Dashboard"
-            onClick={() =>
-              toggleImageFunction(imageFiveIsOpen, toggleImageFive)
-            }
-          />
-          {imageFiveIsOpen ? <WeatherDashboard /> : null}
+        <div className="row">
+          <div className="portfolioDiv">
+            <img
+              className="portfolioImage"
+              src={require("../../images/Furever-Yours-Screenshot.jpg")}
+              alt="Furever Yours Portfolio"
+              title="Furever Yours"
+              onClick={() =>
+                toggleImageFunction(imageNineIsOpen, toggleImageNine)
+              }
+            />
+            {imageNineIsOpen ? <FureverYours /> : null}
+          </div>
+          <div className="portfolioDiv">
+            <img
+              className="portfolioImage"
+              src={require("../../images/Work-Day-Scheduler-Screenshot.jpg")}
+              alt="Work Day Scheduler Portfolio"
+              title="Work Day Scheduler"
+              onClick={() =>
+                toggleImageFunction(imageTenIsOpen, toggleImageTen)
+              }
+            />
+            {imageTenIsOpen ? <WorkDayScheduler /> : null}
+          </div>
         </div>
-        <div className="portfolioDiv">
-          <img
-            className="portfolioImage"
-            src={require("../../images/JavaScript-Code-Challenge-Screenshot.jpg")}
-            alt="JavaScript Code Challenge Portfolio"
-            title="JavaScript Code Challenge"
-            onClick={() => toggleImageFunction(imageSixIsOpen, toggleImageSix)}
-          />
-          {imageSixIsOpen ? <JavaScriptCodeChallenge /> : null}
+        <div className="row">
+          <div className="portfolioDiv">
+            <img
+              className="portfolioImage"
+              src={require("../../images/Sonoma-Crust-Screenshot.jpg")}
+              alt="Sonoma Crust Portfolio"
+              title="Sonoma Crust"
+              onClick={() =>
+                toggleImageFunction(imageElevenIsOpen, toggleImageEleven)
+              }
+            />
+            {imageElevenIsOpen ? <SonomaCrust /> : null}
+          </div>
+          <div className="portfolioDiv">
+            <img
+              className="portfolioImage"
+              src={require("../../images/Flakey-Cream-Screenshot.jpg")}
+              alt="Flakey Cream Portfolio"
+              title="Flakey Cream"
+              onClick={() =>
+                toggleImageFunction(imageTwelveIsOpen, toggleImageTwelve)
+              }
+            />
+            {imageTwelveIsOpen ? <FlakeyCream /> : null}
+          </div>
         </div>
-        <div className="portfolioDiv">
-          <img
-            className="portfolioImage"
-            src={require("../../images/Flying-Goat-Screenshot.jpg")}
-            alt="Flying Goat Coffee Portfolio"
-            title="Flying Goat Coffee"
-            onClick={() =>
-              toggleImageFunction(imageSevenIsOpen, toggleImageSeven)
-            }
-          />
-          {imageSevenIsOpen ? <FlyingGoatCoffee /> : null}
-        </div>
-        <div className="portfolioDiv">
-          <img
-            className="portfolioImage"
-            src={require("../../images/Applied-Signs-Screenshot.jpg")}
-            alt="Applied Signs Portfolio"
-            title="Applied Signs"
-            onClick={() =>
-              toggleImageFunction(imageEightIsOpen, toggleImageEight)
-            }
-          />
-          {imageEightIsOpen ? <AppliedSigns /> : null}
-        </div>
-        <div className="portfolioDiv">
-          <img
-            className="portfolioImage"
-            src={require("../../images/Furever-Yours-Screenshot.jpg")}
-            alt="Furever Yours Portfolio"
-            title="Furever Yours"
-            onClick={() =>
-              toggleImageFunction(imageNineIsOpen, toggleImageNine)
-            }
-          />
-          {imageNineIsOpen ? <FureverYours /> : null}
-        </div>
-        <div className="portfolioDiv">
-          <img
-            className="portfolioImage"
-            src={require("../../images/Work-Day-Scheduler-Screenshot.jpg")}
-            alt="Work Day Scheduler Portfolio"
-            title="Work Day Scheduler"
-            onClick={() => toggleImageFunction(imageTenIsOpen, toggleImageTen)}
-          />
-          {imageTenIsOpen ? <WorkDayScheduler /> : null}
-        </div>
-        <div className="portfolioDiv">
-          <img
-            className="portfolioImage"
-            src={require("../../images/Sonoma-Crust-Screenshot.jpg")}
-            alt="Sonoma Crust Portfolio"
-            title="Sonoma Crust"
-            onClick={() =>
-              toggleImageFunction(imageElevenIsOpen, toggleImageEleven)
-            }
-          />
-          {imageElevenIsOpen ? <SonomaCrust /> : null}
-        </div>
-        <div className="portfolioDiv">
-          <img
-            className="portfolioImage"
-            src={require("../../images/Flakey-Cream-Screenshot.jpg")}
-            alt="Flakey Cream Portfolio"
-            title="Flakey Cream"
-            onClick={() =>
-              toggleImageFunction(imageTwelveIsOpen, toggleImageTwelve)
-            }
-          />
-          {imageTwelveIsOpen ? <FlakeyCream /> : null}
-        </div>
-        <div className="portfolioDiv">
-          <img
-            className="portfolioImage"
-            src={require("../../images/Four-Seasons-Vineyard-Management-Screenshot.jpg")}
-            alt="Four Seasons Vineyard Management Portfolio"
-            title="Four Seasons Vineyard Management"
-            onClick={() =>
-              toggleImageFunction(imageThirteenIsOpen, toggleImageThirteen)
-            }
-          />
-          {imageThirteenIsOpen ? <FourSeasons /> : null}
-        </div>
-        <div className="portfolioDiv">
-          <img
-            className="portfolioImage"
-            src={require("../../images/Image-Athletic-Screenshot.jpg")}
-            alt="Image Athletic Portfolio"
-            title="Image Athletic"
-            onClick={() =>
-              toggleImageFunction(imageFourteenIsOpen, toggleImageFourteen)
-            }
-          />
-          {imageFourteenIsOpen ? <ImageAthletic /> : null}
+        <div className="row">
+          <div className="portfolioDiv">
+            <img
+              className="portfolioImage"
+              src={require("../../images/Four-Seasons-Vineyard-Management-Screenshot.jpg")}
+              alt="Four Seasons Vineyard Management Portfolio"
+              title="Four Seasons Vineyard Management"
+              onClick={() =>
+                toggleImageFunction(imageThirteenIsOpen, toggleImageThirteen)
+              }
+            />
+            {imageThirteenIsOpen ? <FourSeasons /> : null}
+          </div>
+          <div className="portfolioDiv">
+            <img
+              className="portfolioImage"
+              src={require("../../images/Image-Athletic-Screenshot.jpg")}
+              alt="Image Athletic Portfolio"
+              title="Image Athletic"
+              onClick={() =>
+                toggleImageFunction(imageFourteenIsOpen, toggleImageFourteen)
+              }
+            />
+            {imageFourteenIsOpen ? <ImageAthletic /> : null}
+          </div>
         </div>
         <p style={spaceTop}>Note:</p>
         <p style={spaceMiddle}>
