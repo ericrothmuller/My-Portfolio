@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.b8306e74.css",
-    "main.js": "/My-Portfolio/static/js/main.a1ca98eb.js",
+    "main.css": "/My-Portfolio/static/css/main.fed5357b.css",
+    "main.js": "/My-Portfolio/static/js/main.0c57ad5b.js",
     "static/js/787.128fc6e9.chunk.js": "/My-Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Sonoma-Crust-Screenshot.jpg": "/My-Portfolio/static/media/Sonoma-Crust-Screenshot.d80977f793cc0b9af87b.jpg",
     "static/media/Murder-Ridge-Screenshot.jpg": "/My-Portfolio/static/media/Murder-Ridge-Screenshot.14b4725012a10b2615f2.jpg",
@@ -23,12 +23,12 @@
     "static/media/Eric-Rothmuller-Resume.pdf": "/My-Portfolio/static/media/Eric-Rothmuller-Resume.afb10455db6676153d31.pdf",
     "static/media/Eric.jpg": "/My-Portfolio/static/media/Eric.92fbb2ef10d0e559afed.jpg",
     "index.html": "/My-Portfolio/index.html",
-    "main.b8306e74.css.map": "/My-Portfolio/static/css/main.b8306e74.css.map",
-    "main.a1ca98eb.js.map": "/My-Portfolio/static/js/main.a1ca98eb.js.map",
+    "main.fed5357b.css.map": "/My-Portfolio/static/css/main.fed5357b.css.map",
+    "main.0c57ad5b.js.map": "/My-Portfolio/static/js/main.0c57ad5b.js.map",
     "787.128fc6e9.chunk.js.map": "/My-Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8306e74.css",
-    "static/js/main.a1ca98eb.js"
+    "static/css/main.fed5357b.css",
+    "static/js/main.0c57ad5b.js"
   ]
 }
